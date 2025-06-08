@@ -3,7 +3,7 @@
 #input for the height of the pyramid
 n = int(input("Enter the height of pyramid: "))
 
-t = int(input("1. Lower Pyramid\n2. Upper Pyramid\n3. Pyramid\n4.All\n Enter your pattern: "))
+t = int(input("1. Lower Pyramid\n2. Upper Pyramid\n3. Pyramid\n4. All\n Enter your pattern: "))
 
 match t:
     case 1: #lower
