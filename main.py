@@ -14,7 +14,7 @@ match t:
     
     case 2: #upper
         for i in range(n, 0, -1):
-            print("*" * i, end=" \n")
+            print("* " * i, end=" \n")
     
     case 3: #normal
         for i in range(1, n+1):
@@ -28,8 +28,10 @@ match t:
             for j in range(1, i+1):
                 print("*", end=" ")
             print()
+        print()
         for i in range(n, 0, -1): #upper
-            print("*" * i, end=" \n")
+            print("* " * i, end=" \n")
+        print()
         for i in range(1, n+1): #normal
             for j in range(n-i):
                 print(" ", end=" ")
